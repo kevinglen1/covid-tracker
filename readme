@@ -1,22 +1,22 @@
-Description
+#Description
 
-Instructions
-
-
-Deployment link
+#Instructions
 
 
-Getting Started/Code Installation
+#Deployment link
+
+
+#Getting Started/Code Installation
 
 Project structure
 SDK = 11
 
 
-Timeframe & Working Team (Solo/Pair/Group)
+#Timeframe & Working Team (Solo/Pair/Group)
 
 
 
-Technologies Used:
+#Technologies Used:
 
 Spring Boot
 Java
@@ -29,26 +29,28 @@ MySQL
 IntelliJ IDEA
 
 
-Brief
+#Brief
 
 
-Planning
+#Planning
 
 
-Build/Code Process
+#Build/Code Process
 
 
-Challenges
+#Challenges
+
+Challenge: The app wouldn't run because the incorrect SDK was set in the IDE for the Java version.
 
 
-Wins
+#Wins
 
 
 
-Key Learnings/Takeaways
+#Key Learnings/Takeaways
 
 
-Bugs
+#Bugs
 
 
-Future Improvements
+#Future Improvements
