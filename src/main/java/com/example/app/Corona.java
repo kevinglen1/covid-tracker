@@ -14,10 +14,6 @@ public class Corona {
 
     String combinedKey;
 
-    Long active;
-
-    Long recovered;
-
     Long confirmed;
 
     LocalDateTime lastUpdate;
