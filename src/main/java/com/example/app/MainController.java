@@ -2,6 +2,7 @@ package com.example.app;
 
 import com.opencsv.CSVReader;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,6 +15,9 @@ import java.time.format.DateTimeFormatter;
 @Slf4j
 @Controller
 public class MainController {
+
+    @Autowired
+    CoronaRepository coronaRepository;
 
     @GetMapping("/")
     public String root (Model model){
@@ -40,6 +44,7 @@ public class MainController {
                 corona.setCombinedKey(line[11]);
 
                 log.info(corona.toString());
+                coronaRepository.save(corona);
             }
         } catch (IOException e) {
             e.printStackTrace();
